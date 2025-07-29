@@ -1,6 +1,6 @@
 package exercicios;
 import java.util.Scanner;
-
+// 28 de julho de 2025
 public class NotaConceito {
     public static void main(String[] args) {
 
