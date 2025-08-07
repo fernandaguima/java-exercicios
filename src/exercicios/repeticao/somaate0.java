@@ -10,21 +10,23 @@ public class somaate0 {
         int b;
         int soma;
 
-        System.out.println("somando números uhul");
-        System.out.println("digite o primeiro número:");
-        a = teclado.nextInt();
-
-        System.out.println("digite o segundo número:");
-        b = teclado.nextInt();
-
-        soma = a + b;
-
         //se o usuario digitar 0 em algum a soma para
 
-        while (a == 0 || b == 0) {
-            System.out.println("fim da soma");
-            break;
+        while (true) {
+            System.out.println("somando números uhul");
+            System.out.println("digite o primeiro número:");
+            a = teclado.nextInt();
+
+            System.out.println("digite o segundo número:");
+            b = teclado.nextInt();
+
+            if (a == 0 || b == 0) {
+                System.out.println("NAO VOU somar numero com zero filho");
+                break;
+            }
         }
+
+        soma = a + b;
 
         System.out.println("o resultado da soma é " + soma);
 
