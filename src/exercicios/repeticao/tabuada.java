@@ -9,9 +9,7 @@ public class tabuada {
         System.out.println("Digite um número:");
         int numero = teclado.nextInt();
 
-        int t;
-        for (t = 1; t <= 10; t++)
+        for (int t = 1; t <= 10; t++)
         System.out.println(numero + " x " + t + " = " + (numero * t));
-
     }
 }
