@@ -1,4 +1,4 @@
-package exercicios;
+package exercicios.vetores;
 
 public class vetores {
     public static void main(String[] args) {
