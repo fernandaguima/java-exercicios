@@ -13,7 +13,8 @@ public class vetoresSemana {
         semana[5] = "sexta";
         semana[6] = "sabado";
 
-        System.out.println(semana[5]);
-
+        for (int c = 0; c <=7; c++){
+            System.out.println("o dia " + c + " da semana é: " + semana[c]);
+        }
     }
 }
