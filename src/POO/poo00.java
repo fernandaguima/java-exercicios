@@ -7,10 +7,10 @@ public class poo00 {
 
         c1.cor = "azul";
         c1.ponta = 0.5f;
+        c1.tampar();
         c1.status();
         c1.rabiscar();
-        c1.tampar();
 
-
+        // cuidado com a ordem de chamada pelo amor d deus
     }
 }

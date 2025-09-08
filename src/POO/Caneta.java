@@ -20,7 +20,7 @@ public class Caneta {
     void rabiscar() {
         if (this.tampada == true) {
             System.out.println("Está tampada. Não dá para rabiscar.");
-        } else {
+        } if (this.tampada == false){
             System.out.println("Rabiscando.");
         }
 
