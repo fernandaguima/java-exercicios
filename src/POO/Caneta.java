@@ -2,11 +2,11 @@ package POO;
 
 public class Caneta {
     // esses sao os atributos, nas minhas anotacoes no caderno sao tipo os exemplos de nome, idade e altura
-    String modelo;
-    String cor;
-    float ponta;
-    int carga;
-    boolean tampada;
+    public String modelo;
+    public String cor;
+    private float ponta;
+    protected int carga;
+    protected boolean tampada;
 
     void status() {
         System.out.println("Modelo da caneta: " + this.modelo);
