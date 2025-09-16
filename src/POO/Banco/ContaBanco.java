@@ -1,14 +1,75 @@
 package POO.Banco;
 
 public class ContaBanco {
-
+//atributos
     public int numConta;
     protected String tipo;
     private String dono;
     private double saldo;
     private boolean status;
+
+    public ContaBanco() {
+        this.saldo = 0;
+        this.status = false;
+    }
+//metodos
+
+    public void abrirConta(String t) {
+        setTipo(t);
+        setStatus(true);
+
+        if (tipo == "cc") {
+            setSaldo(50);
+        } else if (tipo == "cp") {
+            setSaldo(150);
+        }
+    }
     
-//getters e setters
+    public void fecharConta() {
+        if (saldo > 0) {
+            System.out.println("Saldo existente, não é possível fechar a conta.");
+        } else if (saldo < 0 ) {
+            System.out.println("Conta em débito, não é possível fechar a conta");
+        } else {
+            setStatus(false);
+        }
+    }
+
+    public void depositar(double v) {
+        if (getStatus() == true) {
+            setSaldo(getSaldo() + v);
+        } else {
+        System.out.println("Impossível depositar.");
+        }
+    }
+
+    public void sacar(double v) {
+        if (getStatus() == true) {
+            if (getSaldo() > v) {
+                setSaldo(getSaldo() - v);
+            }
+        } else {
+            System.out.println("Impossível sacar.");
+        }
+    }
+
+    public void pagarMensal() {
+         double v;
+        if (getTipo() == "cc") {
+            v = 12;
+        } else if (getTipo() == "cp") {
+            v = 20;
+        }
+        if (getStatus() == true) {
+            if (getSaldo() > v) {
+                setSaldo(getSaldo() - v);
+            } else {
+                System.out.println("Saldo insuficiente.");
+            }
+        }
+    }
+
+//metodos getters e setters
     public void setNumConta(int n) {
         this.numConta = n;
     }
