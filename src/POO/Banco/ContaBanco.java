@@ -23,19 +23,21 @@ public class ContaBanco {
         } else if (tipo == "cp") {
             setSaldo(150);
         }
+        System.out.println("Conta aberta. Bem-vindo(a)!");
     }
     
     public void fecharConta() {
-        if (saldo > 0) {
+        if (getSaldo() > 0) {
             System.out.println("Saldo existente, não é possível fechar a conta.");
-        } else if (saldo < 0 ) {
+        } else if (getSaldo() < 0 ) {
             System.out.println("Conta em débito, não é possível fechar a conta");
         } else {
             setStatus(false);
+            System.out.println("Conta fechada.");
         }
     }
 
-    public void depositar(double v) {
+    public void depositar(float v) {
         if (getStatus() == true) {
             setSaldo(getSaldo() + v);
         } else {
@@ -43,7 +45,7 @@ public class ContaBanco {
         }
     }
 
-    public void sacar(double v) {
+    public void sacar(float v) {
         if (getStatus() == true) {
             if (getSaldo() > v) {
                 setSaldo(getSaldo() - v);
