@@ -15,56 +15,61 @@ public class ContaBanco {
 //metodos
 
     public void abrirConta(String t) {
-        setTipo(t);
-        setStatus(true);
+        this.setTipo(t);
+        this.setStatus(true);
 
         if (tipo == "cc") {
-            setSaldo(50);
+            this.setSaldo(50);
         } else if (tipo == "cp") {
-            setSaldo(150);
+            this.setSaldo(150);
         }
         System.out.println("Conta aberta. Bem-vindo(a)!");
     }
     
     public void fecharConta() {
-        if (getSaldo() > 0) {
+        if (this.getSaldo() > 0) {
             System.out.println("Saldo existente, não é possível fechar a conta.");
-        } else if (getSaldo() < 0 ) {
+        } else if (this.getSaldo() < 0 ) {
             System.out.println("Conta em débito, não é possível fechar a conta");
         } else {
-            setStatus(false);
+            this.setStatus(false);
             System.out.println("Conta fechada.");
         }
     }
 
     public void depositar(float v) {
-        if (getStatus() == true) {
-            setSaldo(getSaldo() + v);
+        if (this.getStatus()) {
+            this.setSaldo(this.getSaldo() + v);
+            System.out.println("Depósito realizado na conta de " + this.getDono());
         } else {
-        System.out.println("Impossível depositar.");
+        System.out.println("Impossível depositar em uma conta fechada.");
         }
     }
 
     public void sacar(float v) {
-        if (getStatus() == true) {
-            if (getSaldo() > v) {
+        if (this.getStatus()) {
+            if (this.getSaldo() >= v) {
                 setSaldo(getSaldo() - v);
+                System.out.println("Saque realizado na conta de " + this.getDono());
+            } else {
+                System.out.println("Saldo insuficiente para saque.");
             }
         } else {
-            System.out.println("Impossível sacar.");
+            System.out.println("Impossível sacar de uma conta fechada.");
         }
     }
 
     public void pagarMensal() {
-         double v;
-        if (getTipo() == "cc") {
+         int v = 0;
+        if (this.getTipo() == "cc") {
             v = 12;
-        } else if (getTipo() == "cp") {
+        } else if (this.getTipo() == "cp") {
             v = 20;
         }
-        if (getStatus() == true) {
-            if (getSaldo() > v) {
-                setSaldo(getSaldo() - v);
+        if (this.getStatus()) {
+            if (this.getSaldo() > v) {
+                this.setSaldo(this.getSaldo() - v);
+                System.out.println("Mensalidade paga com sucesso.");
             } else {
                 System.out.println("Saldo insuficiente.");
             }
