@@ -15,9 +15,9 @@ public class ContaBanco {
 //metodos
 
     public void estadoAtual() {
-        System.out.println("Conta " + this.getNumConta());
+        System.out.println("Conta: " + this.getNumConta());
         System.out.println("Tipo da conta: " + this.getTipo());
-        System.out.println("Dono " + this.getDono());
+        System.out.println("Dono: " + this.getDono());
         System.out.println("Saldo: " + this.getSaldo());
         System.out.println("Status: " + this.getStatus());
     }
@@ -101,11 +101,11 @@ public class ContaBanco {
         return this.tipo;
     }
 
-    private void setDono(String d) {
-        this.dono = d;
+    public String setDono(String d) {
+        return this.dono = d;
     }
 
-    private String getDono() {
+    public String getDono() {
         return this.dono;
     }
 
