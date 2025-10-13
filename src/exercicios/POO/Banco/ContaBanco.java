@@ -1,4 +1,4 @@
-package POO.Banco;
+package exercicios.POO.Banco;
 
 public class ContaBanco {
 //atributos

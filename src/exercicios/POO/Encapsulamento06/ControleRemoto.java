@@ -1,4 +1,4 @@
-package POO.Encapsulamento06;
+package exercicios.POO.Encapsulamento06;
 
 public class ControleRemoto {
   // atributos

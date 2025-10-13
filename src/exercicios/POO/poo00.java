@@ -1,4 +1,4 @@
-package POO;
+package exercicios.POO;
 
 public class poo00 {
     public static void main(String[] args) {

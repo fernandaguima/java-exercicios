@@ -1,4 +1,4 @@
-package POO;
+package exercicios.POO;
 
 public class Caneta {
     // esses sao os atributos, nas minhas anotacoes no caderno sao tipo os exemplos de nome, idade e altura
