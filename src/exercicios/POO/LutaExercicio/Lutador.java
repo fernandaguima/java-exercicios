@@ -1,4 +1,4 @@
-package exercicios.POO;
+package exercicios.POO.LutaExercicio;
 
 public class Lutador {
 
@@ -97,12 +97,13 @@ public class Lutador {
 
     // metodo construtror pra na hora de instanciar
 
-    public void Lutador(String no, String na, int id, double al, double pe, int vi, int de, int em) {
+    public Lutador(String no, String na, int id, double al, double pe, int vi, int de, int em) {
         this.nome = no;
         this.nacionalidade = na;
         this.idade = id;
         this.altura = al;
         this.setPeso(pe);
+        this.vitorias = vi;
         this.derrotas = de;
         this.empates = em;
     }
@@ -116,7 +117,7 @@ public class Lutador {
         System.out.println("Lutador: " +this.getNome());
         System.out.println("Origem: " + this.getNacionalidade());
         System.out.println(this.getIdade() + " anos");
-        System.out.println(this.getAltura() + " m de altura");
+        System.out.println(this.getAltura() + "m de altura");
         System.out.println("Pesando " + this.getPeso() + "Kg");
         System.out.println("Ganhou: " + this.getVitorias());
         System.out.println("Perdeu: " + this.getDerrotas());
