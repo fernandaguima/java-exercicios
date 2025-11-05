@@ -1,7 +1,4 @@
-package exercicios.dolivro.exercicio02;
-
-import javax.imageio.metadata.IIOMetadataFormat;
-import java.sql.SQLOutput;
+package exercicios.dolivro.modulo1.exercicio02;
 
 public class Acampamento {
 

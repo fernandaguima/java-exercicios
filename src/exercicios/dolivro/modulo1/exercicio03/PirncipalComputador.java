@@ -1,4 +1,4 @@
-package exercicios.dolivro.exercicio03;
+package exercicios.dolivro.modulo1.exercicio03;
 
 public class PirncipalComputador {
 

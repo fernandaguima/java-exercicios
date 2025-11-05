@@ -1,4 +1,4 @@
-package exercicios.dolivro.exercicio11;
+package exercicios.dolivro.modulo1.exercicio11;
 
 public class Estoque {
 

@@ -1,4 +1,4 @@
-package exercicios.dolivro.exercicio9Eleitoral;
+package exercicios.dolivro.modulo1.exercicio9Eleitoral;
 
 public class PrincipalEleitoral {
 
