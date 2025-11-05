@@ -13,7 +13,16 @@ public class Estoque {
     }
 
     public int verificarDisponinibilidade(int quant) {
-        if ((this.quantidade > 0) && (this.quantidade > quant)); {
+
+        if ((this.quantidade > 0) && (this.quantidade >= quant)) {
+            return 1;
+        }
+        return 0;
+    }
+    public int removerProdutos(int quant) {
+        int ret = verificarDisponinibilidade(quant);
+        if (ret == 1) {
+            this.quantidade = this.quantidade - quant;
             return 1;
         }
         return 0;
