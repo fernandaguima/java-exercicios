@@ -1,4 +1,4 @@
-package exercicios.POO.Agregacao;
+/* package exercicios.POO.Agregacao;
 
 public class PorjetoLivro {
     public static void main(String[] args) {
@@ -14,4 +14,4 @@ public class PorjetoLivro {
 
         System.out.println(l[0].detalhes());
     }
-}
+} */

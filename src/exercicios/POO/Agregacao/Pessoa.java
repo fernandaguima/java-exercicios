@@ -2,6 +2,7 @@ package exercicios.POO.Agregacao;
 
 public class Pessoa {
     private String pessoa;
+    private String nome;
     private int idade;
     private String sexo;
 
@@ -38,5 +39,12 @@ public class Pessoa {
 
     public void setSexo(String sexo) {
         this.sexo = sexo;
+    }
+
+    public void getNome() {
+        this.nome();
+    }
+
+    private void nome() {
     }
 }

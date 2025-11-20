@@ -1,4 +1,4 @@
-package exercicios.repeticao;
+package exercicios.POO.repeticao;
 import java.util.Scanner;
 
 public class contador {

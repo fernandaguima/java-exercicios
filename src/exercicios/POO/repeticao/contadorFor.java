@@ -1,4 +1,4 @@
-package exercicios.repeticao;
+package exercicios.POO.repeticao;
 
 public class contadorFor {
     public static void main(String[] args) {

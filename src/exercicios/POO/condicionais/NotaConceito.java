@@ -1,4 +1,4 @@
-package exercicios.condicionais;
+package exercicios.POO.condicionais;
 import java.util.Scanner;
 // 28 de julho de 2025
 public class NotaConceito {

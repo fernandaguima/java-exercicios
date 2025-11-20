@@ -1,6 +1,6 @@
-package exercicios.POO.Agregacao;
+// package exercicios.POO.Agregacao;
 
-public class Livro {
+/* public class Livro {
 
     private String titulo;
     private String autor;
@@ -26,6 +26,9 @@ public class Livro {
         TotPaginas = totPaginas;
         this.leitor = leitor;
     }
+
+
+
 
     public String getTitulo() {
         return titulo;
@@ -74,4 +77,4 @@ public class Livro {
     public void setLeitor(Pessoa leitor) {
         this.leitor = leitor;
     }
-}
+} */

@@ -1,4 +1,4 @@
-package exercicios.metodos;
+package exercicios.POO.metodos;
 
 public class testeFuncao {
 

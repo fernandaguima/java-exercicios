@@ -1,4 +1,4 @@
-package exercicios.condicionais;
+package exercicios.POO.condicionais;
 import java.util.Scanner;
 
 public class ClassificadorDeIdade {
