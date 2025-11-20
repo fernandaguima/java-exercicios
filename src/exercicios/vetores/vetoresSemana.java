@@ -1,4 +1,4 @@
-package exercicios.POO.vetores;
+package exercicios.vetores;
 
 public class vetoresSemana {
     public static void main(String[] args) {

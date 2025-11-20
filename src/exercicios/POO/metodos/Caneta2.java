@@ -1,4 +1,4 @@
-package exercicios.POO;
+package exercicios.POO.metodos;
 
 public class Caneta2 {
 
