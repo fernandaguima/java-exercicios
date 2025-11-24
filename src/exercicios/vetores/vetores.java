@@ -33,18 +33,35 @@ public class vetores {
 
         // exercicios nivel 2
 
-        Scanner op = new Scanner(System.in);
-        int[] idades = new int[3];
+          Scanner op = new Scanner(System.in);
+//        int[] idades = new int[3];
+//
+//        for (int i = 0; i < idades.length; i++) {
+//            System.out.println("Digite uma idade:");
+//            idades[i] = op.nextInt();
+//        }
+//
+//        System.out.println("Você digitou:");
+//        for (int i = 0; i < idades.length; i++) {
+//            System.out.println(idades[i]);
+//        }
 
-        for (int i = 0; i < idades.length; i++) {
-            System.out.println("Digite uma idade:");
-            idades[i] = op.nextInt();
+        int[] numeros = new int[5];
+
+        for (int i = 0; i < numeros.length; i++) {
+            System.out.println("Digite um número:");
+            int valor = op.nextInt();
+            numeros[i] = valor;
         }
 
-        System.out.println("Você digitou:");
-        for (int i = 0; i < idades.length; i++) {
-            System.out.println(idades[i]);
+        int maior = numeros[0];
+
+        for (int i = 0; i < numeros.length; i++) {
+            if (numeros[i] > maior) {
+                maior = numeros[i];;
+            }
         }
+        System.out.println("O maior número é: " + maior);
     }
 }
 
