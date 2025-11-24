@@ -1,7 +1,9 @@
 package exercicios.vetores;
+import java.util.Scanner;
 
 public class vetores {
     public static void main(String[] args) {
+        // exercicios nivel 1
 
 //        int[] vetor = {2, 4, 2, 1};
 //        int soma = 0; // variavel
@@ -29,6 +31,20 @@ public class vetores {
 //            soma = numeros[0] + numeros[3];
 //            System.out.println("A soma é: " + soma);
 
+        // exercicios nivel 2
+
+        Scanner op = new Scanner(System.in);
+        int[] idades = new int[3];
+
+        for (int i = 0; i < idades.length; i++) {
+            System.out.println("Digite uma idade:");
+            idades[i] = op.nextInt();
+        }
+
+        System.out.println("Você digitou:");
+        for (int i = 0; i < idades.length; i++) {
+            System.out.println(idades[i]);
         }
     }
+}
 
