@@ -46,7 +46,24 @@ public class vetores {
 //            System.out.println(idades[i]);
 //        }
 
-        int[] numeros = new int[5];
+//        int[] numeros = new int[5];
+//
+//        for (int i = 0; i < numeros.length; i++) {
+//            System.out.println("Digite um número:");
+//            int valor = op.nextInt();
+//            numeros[i] = valor;
+//        }
+//
+//        int maior = numeros[0];
+//
+//        for (int i = 0; i < numeros.length; i++) {
+//            if (numeros[i] > maior) {
+//                maior = numeros[i];;
+//            }
+//        }
+//        System.out.println("O maior número é: " + maior);
+
+        int[] numeros = new int[4];
 
         for (int i = 0; i < numeros.length; i++) {
             System.out.println("Digite um número:");
@@ -54,14 +71,14 @@ public class vetores {
             numeros[i] = valor;
         }
 
-        int maior = numeros[0];
+        int menor = numeros[0];
 
         for (int i = 0; i < numeros.length; i++) {
-            if (numeros[i] > maior) {
-                maior = numeros[i];;
+            if (numeros[i] < menor) {
+                menor = numeros[i];
             }
         }
-        System.out.println("O maior número é: " + maior);
+        System.out.println("O menor número é: " + menor);
     }
 }
 
