@@ -1,8 +1,8 @@
-package exercicios.vetores;
-import java.util.Scanner;
-
-public class vetores {
-    public static void main(String[] args) {
+//package exercicios.vetores;
+//import java.util.Scanner;
+//
+//public class vetores {
+//    public static void main(String[] args) {
         // exercicios nivel 1
 
 //        int[] vetor = {2, 4, 2, 1};
@@ -32,55 +32,54 @@ public class vetores {
 //            System.out.println("A soma é: " + soma);
 
         // exercicios nivel 2
-
-          Scanner op = new Scanner(System.in);
-//        int[] idades = new int[3];
 //
-//        for (int i = 0; i < idades.length; i++) {
-//            System.out.println("Digite uma idade:");
-//            idades[i] = op.nextInt();
+//          Scanner op = new Scanner(System.in);
+////        int[] idades = new int[3];
+////
+////        for (int i = 0; i < idades.length; i++) {
+////            System.out.println("Digite uma idade:");
+////            idades[i] = op.nextInt();
+////        }
+////
+////        System.out.println("Você digitou:");
+////        for (int i = 0; i < idades.length; i++) {
+////            System.out.println(idades[i]);
+////        }
+//
+////        int[] numeros = new int[5];
+////
+////        for (int i = 0; i < numeros.length; i++) {
+////            System.out.println("Digite um número:");
+////            int valor = op.nextInt();
+////            numeros[i] = valor;
+////        }
+////
+////        int maior = numeros[0];
+////
+////        for (int i = 0; i < numeros.length; i++) {
+////            if (numeros[i] > maior) {
+////                maior = numeros[i];;
+////            }
+////        }
+////        System.out.println("O maior número é: " + maior);
+//
+////        int[] numeros = new int[4];
+////
+////        for (int i = 0; i < numeros.length; i++) {
+////            System.out.println("Digite um número:");
+////            int valor = op.nextInt();
+////            numeros[i] = valor;
+////        }
+////
+////        int menor = numeros[0];
+////
+////        for (int i = 0; i < numeros.length; i++) {
+////            if (numeros[i] < menor) {
+////                menor = numeros[i];
+////            }
+////        }
+////        System.out.println("O menor número é: " + menor);
+//
 //        }
-//
-//        System.out.println("Você digitou:");
-//        for (int i = 0; i < idades.length; i++) {
-//            System.out.println(idades[i]);
-//        }
-
-//        int[] numeros = new int[5];
-//
-//        for (int i = 0; i < numeros.length; i++) {
-//            System.out.println("Digite um número:");
-//            int valor = op.nextInt();
-//            numeros[i] = valor;
-//        }
-//
-//        int maior = numeros[0];
-//
-//        for (int i = 0; i < numeros.length; i++) {
-//            if (numeros[i] > maior) {
-//                maior = numeros[i];;
-//            }
-//        }
-//        System.out.println("O maior número é: " + maior);
-
-//        int[] numeros = new int[4];
-//
-//        for (int i = 0; i < numeros.length; i++) {
-//            System.out.println("Digite um número:");
-//            int valor = op.nextInt();
-//            numeros[i] = valor;
-//        }
-//
-//        int menor = numeros[0];
-//
-//        for (int i = 0; i < numeros.length; i++) {
-//            if (numeros[i] < menor) {
-//                menor = numeros[i];
-//            }
-//        }
-//        System.out.println("O menor número é: " + menor);
-
-        }
-    }
-}
-
+//    }
+//}
