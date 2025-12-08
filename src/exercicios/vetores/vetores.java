@@ -63,22 +63,24 @@ public class vetores {
 //        }
 //        System.out.println("O maior número é: " + maior);
 
-        int[] numeros = new int[4];
+//        int[] numeros = new int[4];
+//
+//        for (int i = 0; i < numeros.length; i++) {
+//            System.out.println("Digite um número:");
+//            int valor = op.nextInt();
+//            numeros[i] = valor;
+//        }
+//
+//        int menor = numeros[0];
+//
+//        for (int i = 0; i < numeros.length; i++) {
+//            if (numeros[i] < menor) {
+//                menor = numeros[i];
+//            }
+//        }
+//        System.out.println("O menor número é: " + menor);
 
-        for (int i = 0; i < numeros.length; i++) {
-            System.out.println("Digite um número:");
-            int valor = op.nextInt();
-            numeros[i] = valor;
         }
-
-        int menor = numeros[0];
-
-        for (int i = 0; i < numeros.length; i++) {
-            if (numeros[i] < menor) {
-                menor = numeros[i];
-            }
-        }
-        System.out.println("O menor número é: " + menor);
     }
 }
 
