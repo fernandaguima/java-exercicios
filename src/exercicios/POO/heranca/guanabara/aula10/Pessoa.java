@@ -7,6 +7,7 @@ public class Pessoa {
     private int idade;
 
     public void fazerAniv() {
+        this.idade += this.idade;
 
     }
 
@@ -32,5 +33,14 @@ public class Pessoa {
 
     public void setIdade(int idade) {
         this.idade = idade;
+    }
+
+    @Override
+    public String toString() {
+        return "Pessoa{" +
+                "nome='" + nome + '\'' +
+                ", sexo='" + sexo + '\'' +
+                ", idade=" + idade +
+                '}';
     }
 }
