@@ -18,4 +18,12 @@ public class Mamifero extends Animal {
     public void emitirSom() {
         System.out.println("Fazendo som de mamífero");
     }
+
+    public String getCorPelo() {
+        return corPelo;
+    }
+
+    public void setCorPelo(String corPelo) {
+        this.corPelo = corPelo;
+    }
 }
