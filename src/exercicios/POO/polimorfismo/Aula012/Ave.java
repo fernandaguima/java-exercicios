@@ -22,4 +22,12 @@ public class Ave extends Animal {
     public void emitirSom() {
         System.out.println("Som de ave");
     }
+
+    public String getCorPena() {
+        return corPena;
+    }
+
+    public void setCorPena(String corPena) {
+        this.corPena = corPena;
+    }
 }
