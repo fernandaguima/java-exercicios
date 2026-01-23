@@ -1,4 +1,4 @@
-package exercicios.dolivro.modulo1.exercicio03;
+package exercicios.POO.dolivro.modulo1.exercicio03;
 
 public class Computador {
 

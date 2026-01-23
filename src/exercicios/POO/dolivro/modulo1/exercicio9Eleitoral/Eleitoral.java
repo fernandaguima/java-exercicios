@@ -1,4 +1,4 @@
-package exercicios.dolivro.modulo1.exercicio9Eleitoral;
+package exercicios.POO.dolivro.modulo1.exercicio9Eleitoral;
 
 public class Eleitoral {
 

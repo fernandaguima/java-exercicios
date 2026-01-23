@@ -1,4 +1,4 @@
-package exercicios.dolivro.modulo1.exercicio01;
+package exercicios.POO.dolivro.modulo1.exercicio01;
 
 public class Apolice {
 

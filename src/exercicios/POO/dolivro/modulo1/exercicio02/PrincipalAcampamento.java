@@ -1,4 +1,4 @@
-package exercicios.dolivro.modulo1.exercicio02;
+package exercicios.POO.dolivro.modulo1.exercicio02;
 
 public class PrincipalAcampamento {
 

@@ -1,4 +1,4 @@
-//package exercicios.vetores;
+//package exercicios.POO.vetores;
 //import java.util.Scanner;
 //
 //public class vetores {
