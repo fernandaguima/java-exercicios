@@ -7,13 +7,18 @@ public class exercicio04 {
 
         ArrayList<Integer> numeros = new ArrayList<>();
 
-        numeros.add(9);
+        numeros.add(3);
+        numeros.add(8);
+        numeros.add(1);
+        numeros.add(10);
 
-        for (int i = 0; i < numeros.size(); i++) {
-            int valor = numeros.get(i);
-            valor = valor + 1;
-            numeros.set(i, valor);
-            System.out.println(numeros.get(i));
+        ArrayList<Integer> lista = new ArrayList<>();
+
+        for (Integer n : numeros) {
+            if (n > 5) {
+                lista.add(n);
+                System.out.println(n);
+            }
         }
     }
 }
