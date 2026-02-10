@@ -60,20 +60,37 @@ public class fixacao {
 //        }
 //        System.out.println(lista);
 
-        ArrayList<Integer> notas = new ArrayList<>();
+//        ArrayList<Integer> notas = new ArrayList<>();
+//
+//        notas.add(6);
+//        notas.add(4);
+//        notas.add(8);
+//        notas.add(3);
+//
+//        int soma = 0;
+//
+//        for (Integer n : notas) {
+//            if (n % 2 == 0) {
+//                soma = soma + n;
+//                System.out.println(n);
+//            }
+//        }
 
-        notas.add(6);
-        notas.add(4);
-        notas.add(8);
-        notas.add(3);
+        ArrayList<Integer> numeros = new ArrayList<>();
 
-        for (int i = 0; i < notas.size(); i++) {
-            if (i < 5) {
-                int valor = notas.get(i);
-                valor = valor + 2;
-                notas.set(i, valor);
+        numeros.add(5);
+        numeros.add(9);
+        numeros.add(2);
+        numeros.add(15);
+        numeros.add(1);
+
+        int maior = 5;
+
+        for (Integer n : numeros) {
+            if (n > maior) {
+                maior = n;
             }
-            System.out.println(notas.get(i));
         }
+        System.out.print("O número maior é " + maior);
     }
 }
