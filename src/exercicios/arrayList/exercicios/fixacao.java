@@ -76,21 +76,38 @@ public class fixacao {
 //            }
 //        }
 
+//        ArrayList<Integer> numeros = new ArrayList<>();
+//
+//        numeros.add(5);
+//        numeros.add(9);
+//        numeros.add(2);
+//        numeros.add(15);
+//        numeros.add(1);
+//
+//        int maior = 5;
+//
+//        for (Integer n : numeros) {
+//            if (n > maior) {
+//                maior = n;
+//            }
+//        }
+//        System.out.print("O número maior é " + maior);
+
         ArrayList<Integer> numeros = new ArrayList<>();
 
-        numeros.add(5);
-        numeros.add(9);
-        numeros.add(2);
-        numeros.add(15);
         numeros.add(1);
+        numeros.add(8);
+        numeros.add(3);
+        numeros.add(6);
+        numeros.add(4);
 
-        int maior = 5;
+        ArrayList<Integer> lista = new ArrayList<>();
 
         for (Integer n : numeros) {
-            if (n > maior) {
-                maior = n;
+            if (n >= 5) {
+                lista.add(n);
             }
         }
-        System.out.print("O número maior é " + maior);
+        System.out.println(lista);
     }
 }
