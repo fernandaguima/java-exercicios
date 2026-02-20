@@ -14,8 +14,11 @@ public class Main {
         produtos.add(p1);
         produtos.add(p2);
 
+        double totalGeral = 0;
+
         for (Product p : produtos) {
-            System.out.println(p.getNome() + " - " + p.calcularTotal());
+            totalGeral += p.calcularTotal();
         }
+        System.out.println("Total geral: R$ " + totalGeral);
     }
 }
