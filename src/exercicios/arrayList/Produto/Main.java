@@ -11,13 +11,18 @@ public class Main {
 
         Product p2 = new Product("Teclado", 100.0, 1);
 
+        Product p3 = new Product("Monitor", 800.0, 3);
+
         produtos.add(p1);
         produtos.add(p2);
+        produtos.add(p3);
 
         double totalGeral = 0;
 
         for (Product p : produtos) {
-            totalGeral += p.calcularTotal();
+            if (p.getPreco() > 60 && p.getQuant() > 1) {
+                totalGeral += p.calcularTotal();
+            }
         }
         System.out.println("Total geral: R$ " + totalGeral);
     }
