@@ -21,7 +21,7 @@ public class Principal01 {
         for (Produto01 p : produtos) {
             System.out.println(p.getNome() + " - " + p.calcularTotal());
             if (p.getQuant() > 1) {
-                totalGeral += totalGeral;
+                totalGeral += p.calcularTotal();
                 System.out.println(totalGeral);
             }
         }
