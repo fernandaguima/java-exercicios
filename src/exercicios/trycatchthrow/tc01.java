@@ -1,4 +1,4 @@
-package exercicios.trycatch;
+package exercicios.trycatchthrow;
 
 import java.util.Scanner;
 

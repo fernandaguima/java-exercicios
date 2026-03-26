@@ -1,4 +1,4 @@
-package exercicios.revisando.exercicio185e186;
+package exercicios.POO.dolivro.revisando.exercicio185e186;
 
 public class PrincipalComputador {
 

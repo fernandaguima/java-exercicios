@@ -1,4 +1,4 @@
-package exercicios.revisando.exercicio183e184;
+package exercicios.POO.dolivro.revisando.exercicio183e184;
 
 public class PrincipalAcampamento {
 

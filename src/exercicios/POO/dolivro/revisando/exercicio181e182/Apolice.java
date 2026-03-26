@@ -1,4 +1,4 @@
-package exercicios.revisando.exercicio181e182;
+package exercicios.POO.dolivro.revisando.exercicio181e182;
 
 public class Apolice {
 
