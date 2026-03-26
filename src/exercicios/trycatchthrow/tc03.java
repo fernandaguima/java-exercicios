@@ -8,7 +8,7 @@ public class tc03 {
         if (preco < 0) {
             throw new IllegalArgumentException("Preço não pode ser negativo");
         }
-        if (nome.isEmpty()) {
+        if (nome == null || nome.isEmpty()) {
             throw new IllegalArgumentException("Nome não pode ser vazio");
         }
         this.nome = nome;
