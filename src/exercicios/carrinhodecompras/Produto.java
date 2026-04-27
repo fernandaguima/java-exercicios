@@ -20,4 +20,19 @@ public class Produto {
         this.preco = preco;
         this.quant = quant;
     }
+    public double calcularTotal() {
+        return preco * quant;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public double getPreco() {
+        return preco;
+    }
+
+    public int getQuant() {
+        return quant;
+    }
 }
